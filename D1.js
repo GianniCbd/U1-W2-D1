@@ -24,7 +24,7 @@ Symbol; //è un entita singola, poco utlizzata
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name = "cabiddu";
+const name = "gianni";
 console.log(name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -41,16 +41,19 @@ console.log("valore di number3:", number3);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12;
+let x;
+x = 12;
+console.log(x);
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const name = "cabiddu";
+/*
+name = "cabiddu";
+//D1.js:53:6 Uncaught TypeError: Assignment to constant variable. at */
 console.log(name);
-
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -70,4 +73,4 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2);
 
-console.log((name2 || name1) === name2);
+console.log(name1.toLowerCase === name2.toLowerCase);
