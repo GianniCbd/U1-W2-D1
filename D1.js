@@ -24,31 +24,31 @@ Symbol; //è un entita singola, poco utlizzata
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name = "gianni";
+let name = "Gianni";
 console.log(name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num1 = 10;
+let num1 = 12;
 let num2 = 20;
-let somma = num1 + num2;
-console.log(somma);
+let sum = num1 + num2;
+console.log(sum);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12;
+const x = 12;
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// (at D1.js:51:7)'name' has already been declared
+// Uncaught SyntaxError: Identifier 'name' has already been declared
 // const name = "cabiddu";
 // console.log(name);
 
@@ -57,9 +57,8 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let sottrazione = x - 4;
-console.log(sottrazione);
-
+const subtr = x - 4;
+console.log(subtr);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
@@ -67,8 +66,8 @@ console.log(sottrazione);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const name1 = "john";
-const name2 = "John";
+let name1 = "john";
+let name2 = "John";
 
-console.log("name1 e name2 sono uguali", name1 === name2);
-console.log("name1 e name2 sono uguali", name1.toLocaleLowerCase() === name2.toLocaleLowerCase());
+console.log("sono uguali", name1 === name2);
+console.log("sono diversi", name1.toLowerCase() === name2.toLowerCase());
